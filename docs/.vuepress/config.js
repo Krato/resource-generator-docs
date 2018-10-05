@@ -20,8 +20,8 @@ module.exports = {
         sidebarDepth: 0,
 
         nav: [
-            // {text: 'Home', link: 'https://nova.laravel.com'},
             {text: '1.0', link: '/1.0/'},
+            {text: 'GitHub', link: 'https://github.com/cloudstudio/resource-generator'},
         ],
 
         sidebar: {
