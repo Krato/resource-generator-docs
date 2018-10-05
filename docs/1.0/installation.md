@@ -19,10 +19,10 @@ Remember that you can add nova as a composer package: [Link](https://nova.larave
 :::
 
 
-Require this package (`cloudtudio/nova-generator`) in the `composer.json` of your Laravel project or run the following command in your console:
+Require this package (`composer require cloudstudio/resource-generator`) in the `composer.json` of your Laravel project or run the following command in your console:
 
 ```
-composer require cloudtudio/nova-generator
+composer require cloudstudio/resource-generator
 ```
 
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
@@ -39,4 +39,10 @@ public function tools()
         new \Cloudstudio\ResourceGenerator\ResourceGenerator(),
     ];
 }
+```
+
+Also, link storage folder
+
+```php
+php artisan storage:link
 ```
