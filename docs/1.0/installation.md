@@ -19,7 +19,7 @@ Remember that you can add nova as a composer package: [Link](https://nova.larave
 :::
 
 
-Require this package (`composer require cloudstudio/resource-generator`) in the `composer.json` of your Laravel project or run the following command in your console:
+Require this package (`cloudstudio/resource-generator`) in the `composer.json` of your Laravel project or run the following command in your console:
 
 ```
 composer require cloudstudio/resource-generator
