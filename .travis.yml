@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-    - "10"
+    - "8"
 env:
     - CXX=g++-4.8
 addons:
@@ -10,9 +10,10 @@ addons:
         packages:
             - g++-4.8
 install:
+    - npm install -g yarn
     - npm install -g vuepress 
 script:
-    - npm run docs:build
+    - yarn docs:build
 cache:
     directories:
         - "node_modules"
