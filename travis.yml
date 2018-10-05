@@ -10,7 +10,7 @@ addons:
         packages:
             - g++-4.8
 install:
-    - npm install -g vuepress
+    - npm install -g vuepress 
 script:
     - npm run docs:build
 cache:
@@ -23,7 +23,7 @@ deploy:
     skip-cleanup: true
     local_dir: docs/.vuepress/dist
     github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    repo: <username || or org name>/<publication repo name>
+    repo: 'krato/resource-generator-docs'
     keep-history: true
     target-branch: master
     on:
