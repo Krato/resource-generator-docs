@@ -6,7 +6,7 @@
             </h1>
             <img alt="Nova Resource Generator" src="https://user-images.githubusercontent.com/74367/46522091-12b5ad00-c882-11e8-8ff6-6af312fa2a42.png">
                 <p class="action">
-                    <a class="nav-link action-button" href="/docs/1.0/">
+                    <a class="nav-link action-button" href="1.0/">
                         Start developing faster →
                     </a>
                 </p>
