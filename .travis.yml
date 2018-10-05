@@ -27,6 +27,6 @@ deploy:
     github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
     repo: 'krato/resource-generator-docs'
     keep-history: true
-    target-branch: pages
+    target-branch: master
     on:
-        branch: master
+        branch: dev-pages
