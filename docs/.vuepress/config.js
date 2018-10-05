@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Nova Resource Generator',
     description: 'Master Your Universe',
-    base: 'resource-generator-docs/docs',
+    base: 'resource-generator-docs',
     serviceWorker: true,
     head: [
         [
