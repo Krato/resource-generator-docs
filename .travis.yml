@@ -13,6 +13,7 @@ install:
     - npm install -g yarn
     - npm install -g vuepress 
 script:
+    - yarn install
     - yarn docs:build
 cache:
     directories:
